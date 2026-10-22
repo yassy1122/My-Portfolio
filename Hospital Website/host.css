@@ -1,0 +1,937 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* logo start */
+#logo
+{
+    width: 1200px;
+    height: 700px;
+    background-image: url(IMG/logo-1.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+#name
+{
+    font-size: 60px;
+    font-family: Stencil;
+    padding-top: 240px;
+    padding-left: 35px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+#store
+{
+    font-size: 50px;
+    font-family: Stencil;
+    padding-left: 250px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+#detail
+{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;
+    padding-left: 35px;
+    font-weight: 400;
+    padding-right: 550px;
+    color: white;
+
+}
+#detailbtn
+{
+    width: 180px;
+    height: 75px;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 15px;
+    background-color: rgb(1, 26, 116);
+    color: white;
+    font-weight: 400;
+}
+#detailbtn:hover
+{
+    background-color:  rgb(34, 63, 170);
+    border-bottom:  solid rgb(255, 255, 255);
+}
+/* logo end */
+
+/* services start */
+#services
+{
+    width: 1200px;
+    height: 490px;
+    background-color: #acacac;
+    margin: 0px auto;
+}
+#s1
+{
+    width: 350px;
+    height: 450px;
+    background-color: #c5c7c9;
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left;
+}
+#neuro
+{
+    width: 110px;
+    height: 110px;
+    background-image: url(PNG/yy.jpg);
+    margin: 0px auto;
+    margin-top: 65px;
+    background-size: cover;
+}
+#neurocampe
+{
+    font-size: 20px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+#neurodetail
+{
+    font-style: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#neurobtn
+{
+    width: 170px;
+    height: 45px;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 40px;
+    background-color: rgb(1, 26, 116);
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+#neurobtn:hover
+{
+    border-bottom: solid rgb(255, 255, 255);
+    background-color:  rgb(34, 63, 170);
+}
+#s2
+{
+    width: 350px;
+    height: 450px;
+    background-color: #8c919a;
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left;
+}
+#cardio
+{
+    width: 110px;
+    height: 110px;
+    background-image: url(PNG/yyy.png);
+    margin: 0px auto;
+    margin-top: 65px;
+    background-size: cover;
+}
+#cardiocampe
+{
+    font-size: 20px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+#cardiodetail
+{
+    font-style: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#cardiobtn
+{
+    width: 170px;
+    height: 45px;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 40px;
+    background-color: rgb(1, 26, 116);
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+#cardiobtn:hover
+{
+    border-bottom: solid rgb(255, 255, 255);
+    background-color:  rgb(34, 63, 170);
+}
+#s3
+{
+    width: 350px;
+    height: 450px;
+    background-color: #545d66;
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left;
+}
+#uriology
+{
+    width: 110px;
+    height: 110px;
+    background-image: url(PNG/yyyy.png);
+    margin: 0px auto;
+    margin-top: 65px;
+    background-size: cover;
+}
+#uriocampe
+{
+    font-size: 20px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+#uriodetail
+{
+    font-style: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#uriobtn
+{
+    width: 170px;
+    height: 45px;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-top: 40px;
+    background-color: rgb(1, 26, 116);
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+#uriobtn:hover
+{
+    border-bottom: solid rgb(255, 255, 255);
+    background-color:  rgb(34, 63, 170);
+}
+/* services end */
+
+/* Modren service start */
+#modren
+{
+    width: 1200px;
+    height: 800px;
+    background-color: #acacac;
+    margin: 0px auto;
+}
+#modrentitle
+{
+    font-size: 28px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+#modrenbody
+{
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px;
+    text-align: center;
+    /* text-align: justify; */
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 15px;
+}
+#mn
+{
+    width: 600px;
+    height: 120px;
+    /* background-color: yellowgreen; */
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#mnpic
+{
+    width: 110px;
+    height: 110px;
+    background-image: url(PNG/neuro.png);
+    margin-left: 10px;
+    position: absolute;
+}
+#mntitle
+{
+    font-size: 25px;
+    font-family: stincil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 130px;
+    position: absolute;
+}
+#mnbody
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    padding-left: 130px;
+    padding-bottom: 150px;
+    padding-top: 55px;
+}
+#mc
+{
+    width: 600px;
+    height: 120px;
+    /* background-color: yellowgreen; */
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#mcpic
+{
+    width: 110px;
+    height: 110px;
+    background-image: url(PNG/yyy.png);
+    margin-left: 10px;
+    position: absolute;
+}
+#mctitle
+{
+    font-size: 25px;
+    font-family: stincil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 130px;
+    position: absolute;
+}
+#mcbody
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    padding-left: 130px;
+    padding-bottom: 150px;
+    padding-top: 55px;
+}
+#memer
+{
+    width: 600px;
+    height: 120px;
+    /* background-color: yellowgreen; */
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#memerpic
+{
+    width: 110px;
+    height: 110px;
+    background-image: url(PNG/emergency.png);
+    margin-left: 10px;
+    position: absolute;
+}
+#memertitle
+{
+    font-size: 25px;
+    font-family: stincil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-left: 130px;
+    position: absolute;
+}
+#memerbody
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    padding-left: 130px;
+    padding-bottom: 150px;
+    padding-top: 55px;
+}
+#modrenpic
+{
+    width: 450px;
+    height: 400px;
+    background-image: url(IMG/modrenpic.png);
+    float: right;
+    margin-top: 290px;
+}
+/* Modren service end */
+
+/* Start Our Department */
+#dep
+{
+    width: 1200px;
+    height: 500px;
+    background-color: #69707a;
+    margin: 0px auto;
+}
+#deptitle
+{
+    font-size: 40px;
+    font-family: Stincil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+}
+#depbody
+{
+    font-size: 23px;
+    font-family: Algebrain;
+    text-align: center;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    padding-top: 18px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+#dep1
+{
+    width: 130px;
+    height: 130px;
+    background-image: url(PNG/eye.png);
+    float: left;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+#dep2
+{
+    width: 130px;
+    height: 130px;
+    background-image: url(PNG/heart.png);
+    float: left;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+#dep3
+{
+    width: 130px;
+    height: 130px;
+    background-image: url(PNG/neuro1.png);
+    float: left;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+#dep4
+{
+    width: 130px;
+    height: 130px;
+    background-image: url(PNG/dental.png);
+    float: left;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+#dep5
+{
+    width: 130px;
+    height: 130px;
+    background-image: url(PNG/ear1.png);
+    float: left;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+#dep6
+{
+    width: 130px;
+    height: 130px;
+    background-image: url(PNG/emergency1.png);
+    float: left;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+/* End Our Department */
+
+/* Start Care */
+#care
+{
+    width: 1200px;
+    height: 500px;
+    background-color: #cccccc;
+    margin: 0px auto;
+}
+#carepic
+{
+    width: 550px;
+    height: 400px;
+    background-image: url(IMG/carepic.png);
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 13px;
+}
+#carecontent
+{
+    width: 550px;
+    height: 400px;
+    /* background-color: yellowgreen; */
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+#caretitle
+{
+    font-size: 40px;
+    font-family: Stincil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 80px;
+    letter-spacing: 2px;
+}
+#carebody
+{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    padding-top: 10px;
+    text-align: justify;
+}
+/* End Care */
+
+/* Start we */
+#we
+{
+    width: 1200px;
+    height: 720px;
+    background-color: #b2b5ba;
+    margin: 0px auto;
+}
+#wetitle
+{
+    font-size: 40px;
+    font-family: Stincil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+#webody
+{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300px;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 10px;
+}
+#we1
+{
+    width: 360px;
+    height: 520px;
+    /* background-color: yellowgreen; */
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#we11
+{
+    width: 360px;
+    height: 300px;
+    background-image: url(IMG/we11.jpg);
+}
+#we11title
+{
+    font-size: 30px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding-top: 12px;
+    padding-left: 15px;
+}
+#we11body
+{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 6px;
+    /* text-align: center; */
+    padding-top: 10px;
+}
+#we1btn
+{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(1, 26, 116);
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Stincil;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+}
+#we1btn:hover
+{
+    border-bottom: solid rgb(255, 255, 255);
+    background-color:  rgb(34, 63, 170);
+}
+#we2
+{
+    width: 360px;
+    height: 520px;
+    /* background-color: yellowgreen; */
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#we21
+{
+    width: 360px;
+    height: 300px;
+    background-image: url(IMG/we21.jpg);
+}
+#we21title
+{
+    font-size: 30px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding-top: 12px;
+    padding-left: 15px;
+}
+#we21body
+{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 6px;
+    /* text-align: center; */
+    padding-top: 10px;
+}
+#we2btn
+{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(1, 26, 116);
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Stincil;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+}
+#we2btn:hover
+{
+    border-bottom: solid rgb(255, 255, 255);
+    background-color:  rgb(34, 63, 170);
+}
+#we3
+{
+    width: 360px;
+    height: 520px;
+    /* background-color: yellowgreen; */
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#we31
+{
+    width: 360px;
+    height: 300px;
+    background-image: url(IMG/we31.jpg);
+}
+#we31title
+{
+    font-size: 30px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    /* text-align: center; */
+    padding-top: 12px;
+    padding-left: 15px;
+}
+#we31body
+{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 6px;
+    /* text-align: center; */
+    padding-top: 10px;
+}
+#we3btn
+{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(1, 26, 116);
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Stincil;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+}
+#we3btn:hover
+{
+    border-bottom: solid rgb(255, 255, 255);
+    background-color:  rgb(34, 63, 170);
+}
+/* End we */
+
+/*  Start Globle */
+#gl
+{
+    width: 1200px;
+    height: 650px;
+    background-color: #414a51;
+    margin: 0px auto;
+}
+#gltitle
+{
+    font-size: 40px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+#glbody
+{
+    font-size: 22px;
+    font-family: Stincil;
+    font-weight: 200px;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    color: white;
+}
+#glpic
+{
+    width: 900px;
+    height: 480px;
+    background-image: url(PNG/global.png);
+    margin: 0px auto;
+    margin-top: 30px;
+}
+/* End Globle */
+
+/* Start Specailist */
+#spe
+{
+    width: 1200px;
+    height: 650px;
+    background-color: #cccccc;
+    margin: 0px auto;
+}
+#spetitle
+{
+    font-size: 40px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    /* color: white; */
+}
+#spebody
+{
+    font-size: 22px;
+    font-family: Stincil;
+    font-weight: 200px;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    /* color: white; */
+}
+#spe1
+{
+    width: 320px;
+    height: 450px;
+    /* background-color: yellow; */
+    float: left;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+#spe11
+{
+    width: 320px;
+    height: 430px;
+    background-image: url(PNG/spe1.png);
+}
+#spe11title
+{
+    font-size: 23px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+#spe2
+{
+    width: 320px;
+    height: 450px;
+    /* background-color: yellow; */
+    float: left;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+#spe21
+{
+    width: 320px;
+    height: 430px;
+    background-image: url(PNG/spe2.png);
+}
+#spe21title
+{
+    font-size: 23px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+#spe3
+{
+    width: 320px;
+    height: 450px;
+    /* background-color: yellow; */
+    float: right;
+    margin-top: 55px;
+    margin-right: 60px;
+}
+#spe31
+{
+    width: 320px;
+    height: 430px;
+    background-image: url(PNG/spe3.png);
+}
+#spe31title
+{
+    font-size: 23px;
+    font-family: Stencil;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+/* End Specailist */
+
+/* Start Form */
+#form
+{
+    width: 1200px;
+    height: 500px;
+    background-color: #858d9a;
+    margin: 0px auto;
+}
+#sform
+{
+    width: 1000px;
+    height: 450px;
+    /* background-color: yellowgreen; */
+    margin: 0px auto;
+    margin-top: 30px;
+}
+#sformtitle
+{
+    font-size: 30px;
+    font-family: stincil;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 10px;
+}
+#sformbody
+{
+    font-size: 15px;
+    font-family: stincil;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 5px;
+    font-weight: normal;
+    text-align: justify;
+}
+form
+{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#lbl
+{
+    font-family: Sticil;
+    font-size: 20px;
+}
+#ftxt
+{
+    width: 700px;
+    height: 40px;
+    font-size: 19px;
+    font-family: calibri;
+    border-style: none;
+    background-color: #545d66;
+    border-radius: 5px;
+}
+#ftxt1
+{
+    width: 700px;
+    height: 80px;
+    font-size: 19px;
+    font-family: calibri;
+    margin-bottom: 8px;
+    border-style: none;
+    background-color: #545d66;
+    color: white;
+    border-radius: 5px;
+}
+#fbtn
+{
+    width: 150px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Stincil;
+    text-align: center;
+    /* padding-top: px; */
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-weight: bold;
+}
+#fbtn:hover
+{
+    border-bottom: solid rgb(215, 215, 215);
+    background-color:  rgb(215, 215, 215);
+}
+/* End Form */
